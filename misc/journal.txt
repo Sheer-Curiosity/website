@@ -5,3 +5,6 @@ knowing fuck-all about web development. As such, I only see one logical path
 forward right now.
 
 Make the website into a shitpost.
+
+Day 2: I had my fun yesterday, but now it's time to actually learn how to make
+stuff.
