@@ -20,6 +20,7 @@
 *.pem
 *.key
 *.csr
+/misc
 
 # debug
 npm-debug.log*
