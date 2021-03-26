@@ -16,6 +16,37 @@
   align-items: center;
 }
 
+.navbar {
+  width: 100%;
+  height: 3em;
+  display: flex;
+  border-bottom: 1px solid #eaeaea;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.navbar a {
+  font-size: 2rem;
+  font-weight: bolder;
+  padding: 0.1rem 1rem;
+  display: flex;
+}
+
+.navbar a:hover {
+  background-color: darkslateblue;
+  color: white;
+}
+
+.navbar a:active {
+  background-color: dimgray;
+  color: white;
+}
+
+.navbaractive {
+  background-color: dimgray;
+  color: white;
+}
+
 .footer {
   width: 100%;
   height: 100px;
@@ -30,6 +61,7 @@
 }
 
 .footer a {
+  margin: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -111,7 +143,11 @@
 }
 
 .logo {
-  height: 1em;
+  height: 1rem;
+}
+
+.mainico {
+  height: 2.75rem;
 }
 
 @media (max-width: 600px) {
