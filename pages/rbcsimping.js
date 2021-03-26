@@ -59,14 +59,14 @@ export default function RobocoSimping() {
 				<p className={styles.description}>
 				　を購読するロボコさん
 				</p>
-				<iframe 
-				id = "activeStream"
-				width="1280" 
-				height="720" 
-				src="https://www.youtube.com/embed/_oqh2f3CTj4" 
-				frameBorder="0"
-				>
-				</iframe>
+				<div className={styles.iframecontainer}>
+					<iframe
+						className={styles.responsiveiframe}
+						frameBorder="0"
+						id = "activeStream"
+						src="/placeholder.svg"
+					></iframe>
+				</div>
 			</main>
 		</div>
 	)
