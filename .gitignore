@@ -16,8 +16,11 @@
 /build
 
 # misc
+/notes
 .DS_Store
 *.pem
+*.key
+*.csr
 
 # debug
 npm-debug.log*
