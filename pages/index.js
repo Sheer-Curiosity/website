@@ -1,9 +1,9 @@
 // This website began development (and I started learning web dev from nothing)
 // on March 25, 2021
 
-export default function Home() {
+export default function Home({ holostat }) {
   return (
-    <div>
+    <div className="container">
       <h1>Hello Next.js</h1>
     </div>
   );
