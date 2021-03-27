@@ -4,7 +4,14 @@
 export default function Home({ holostat }) {
   return (
     <div className="container">
-      <h1>Hello Next.js</h1>
+      <div className="container-column">
+        <div className="component">
+          <h1>My Website</h1>
+          <p>
+            <a href="/dev">Click to go to hell</a>
+          </p>
+        </div>
+      </div>
     </div>
   );
 }
