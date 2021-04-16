@@ -58,7 +58,7 @@ export default function Home({ holostat }) {
 						<div className="component">
 							<h1>Embedded Video</h1>
 							<div className="video-mask">
-								<video width="100%" controls autoplay> 
+								<video width="100%" controls autoPlay> 
 									<source src="C-uhba1vgcgan61.mp4" type="video/mp4"></source>
 								</video>
 							</div>

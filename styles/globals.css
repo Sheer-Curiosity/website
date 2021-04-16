@@ -25,6 +25,7 @@ a {
     rgba(63, 94, 251, 1) 0%,
     rgba(252, 70, 107, 1) 100%
   );
+  background-attachment: fixed;
 }
 .container {
   min-height: 69vh;
@@ -110,13 +111,5 @@ a {
 
 .center-text {
   font-size: 80px;
-  background: -webkit-linear-gradient(
-    rgba(58, 180, 101, 1),
-    rgba(29, 253, 232, 1),
-    rgba(41, 119, 200, 1),
-    rgba(252, 69, 245, 1)
-  );
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
   text-align: center;
 }
