@@ -1,0 +1,88 @@
+.background {
+  margin-top: -5.2vh;
+  background: radial-gradient(
+    circle,
+    rgba(63, 94, 251, 1) 0%,
+    rgba(252, 70, 107, 1) 100%
+  );
+  background-attachment: fixed;
+}
+.main {
+  margin-top: 5.2vh
+}
+
+.page-title {
+  text-align: center;
+  font-size: 4em;
+}
+.container {
+  min-height: 69vh;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: flex-start;
+}
+
+.container-column {
+  flex: 1;
+  max-width: 50rem;
+  margin: 0 0.5rem 0 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-content: flex-start;
+}
+
+.component {
+  flex: 0;
+  flex-wrap: wrap;
+  border: 5px solid grey;
+  border-radius: 20px;
+  margin: 0rem 0 1rem 0;
+  background: linear-gradient(
+    215deg,
+    rgba(151, 145, 250, 1) 0%,
+    rgba(85, 85, 163, 1) 0%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+
+.component li {
+  list-style-position: inside;
+  margin: 0rem 1rem;
+}
+
+.component h1 {
+  text-align: center;
+  margin: 0.1rem;
+}
+
+.component p {
+  text-align: center;
+  word-wrap: break-word;
+}
+
+.component img {
+  display: block;
+  max-width: 80%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.component video {
+  display: block;
+  border-radius: 15px;
+}
+
+.component iframe {
+  display: block;
+  width: 100%;
+  height: 35vh;
+  border-radius: 15px;
+}
+
+.center-text {
+  text-align: center;
+}
