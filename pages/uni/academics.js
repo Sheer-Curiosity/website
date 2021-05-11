@@ -1,17 +1,16 @@
 import Head from 'next/head';
-import { Parallax } from 'react-scroll-parallax';
-import UniNavbarHome from '../../components/UniNavbarHome';
+import UniNavbarAcademics from '../../components/UniNavbarAcademics';
 import uniStyles from '../../styles/uniStyles.module.css'
 
 export default function Home() {
-  return (
+	return (
 		<div>
 			<Head>
-				<title>Home</title>
+				<title>Academics</title>
 			</Head>
-			<UniNavbarHome/>
+			<UniNavbarAcademics/>
 			<div>
 			</div>
 		</div>
-	)
+	);
 }

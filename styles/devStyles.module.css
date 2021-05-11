@@ -1,5 +1,5 @@
 .background {
-  margin-top: -5.2vh;
+  margin-top: -43px;
   background: radial-gradient(
     circle,
     rgba(63, 94, 251, 1) 0%,
@@ -8,7 +8,7 @@
   background-attachment: fixed;
 }
 .main {
-  margin-top: 5.2vh
+  margin-top: 43px
 }
 
 .page-title {
