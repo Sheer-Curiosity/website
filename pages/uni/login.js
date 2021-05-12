@@ -15,7 +15,7 @@ export default function Page() {
     return (
       <div>
         Not signed in <br/>
-        <button onClick={() => signIn()}>Sign in</button>
+        <button onClick={() => signIn(null, {callbackUrl: 'https://absoluteinquisition.xyz/uni' })}>Sign in</button>
       </div>
     )
   }
@@ -23,7 +23,7 @@ export default function Page() {
     return (
       <div>
         Signed in as {session.user.name} <br/>
-        <button onClick={() => signOut(null, {callbackUrl: 'https://absoluteinquisition.xyz/uni' })}>Sign out</button>
+        <button onClick={() => signOut()}>Sign out</button>
       </div>
     )
   }
