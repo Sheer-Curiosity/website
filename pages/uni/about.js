@@ -6,6 +6,11 @@ import { signIn, signOut, useSession } from 'next-auth/client'
 export default function Home() {
 	const [ session, loading ] = useSession()
 
+	if (loading) {
+		return (
+			<div>Loading...</div>
+		)
+	}
 	if (!session) {
     return (
       <div>
