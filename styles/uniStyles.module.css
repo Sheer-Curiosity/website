@@ -1,4 +1,13 @@
+@font-face {
+    font-family: 'HypeRegular';
+    src: url('/fonts/HYPE/hype-webfont.woff2') format('woff2'),
+         url('/fonts/HYPE/hype-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 .navbar-home {
+	z-index: 10;
 	position: fixed;
 	top: 1.3rem;
 	left: 3rem;
@@ -8,11 +17,12 @@
 	background: transparent;
 	cursor: pointer;
 	font-size:20px;
-	color: black;
+	color: white;
 	transition: all 0.3s ease;
 }
 
 .navbar-home-selected {
+	z-index: 10;
 	position: fixed;
 	top: 1.3rem;
 	left: 3rem;
@@ -22,10 +32,11 @@
 	background: transparent;
 	cursor: pointer;
 	font-size:20px;
-	color: midnightblue;
+	color: rgb(59, 62, 231);
 }
 
 .overline-home {
+	z-index: 10;
 	position: fixed;
 	top: 1rem;
 	left: 3rem;
@@ -37,24 +48,26 @@
 }
 
 .overline-home-selected {
+	z-index: 10;
 	position: fixed;
 	top: 1rem;
 	left: 3rem;
 	height: 0.3rem;
 	width: 4.55rem;
-	background-color: midnightblue;
+	background-color: rgb(59, 62, 231);
 	cursor: pointer;
 }
 
 .navbar-home:hover .overline-home {
-	background-color: midnightblue;
+	background-color: rgb(59, 62, 231);
 }
 
 .navbar-home:hover {
-	color: midnightblue;
+	color: rgb(59, 62, 231);
 }
 
 .navbar-about {
+	z-index: 10;
 	position: fixed;
 	top: 1.3rem;
 	left: 10rem;
@@ -64,11 +77,12 @@
 	background: transparent;
 	cursor: pointer;
 	font-size:20px;
-	color: black;
+	color: white;
 	transition: all 0.3s ease;
 }
 
 .navbar-about-selected {
+	z-index: 10;
 	position: fixed;
 	top: 1.3rem;
 	left: 10rem;
@@ -78,10 +92,11 @@
 	background: transparent;
 	cursor: pointer;
 	font-size:20px;
-	color: midnightblue;
+	color: rgb(59, 62, 231);
 }
 
 .overline-about {
+	z-index: 10;
 	position: fixed;
 	top: 1rem;
 	left: 10rem;
@@ -93,24 +108,26 @@
 }
 
 .overline-about-selected {
+	z-index: 10;
 	position: fixed;
 	top: 1rem;
 	left: 10rem;
 	height: 0.3rem;
 	width: 4.55rem;
-	background-color: midnightblue;
+	background-color: rgb(59, 62, 231);
 	cursor: pointer;
 }
 
 .navbar-about:hover .overline-about {
-	background-color: midnightblue;
+	background-color: rgb(59, 62, 231);
 }
 
 .navbar-about:hover {
-	color: midnightblue;
+	color: rgb(59, 62, 231);
 }
 
 .navbar-academics {
+	z-index: 10;
 	position: fixed;
 	top: 1.3rem;
 	left: 17rem;
@@ -120,11 +137,12 @@
 	background: transparent;
 	cursor: pointer;
 	font-size:20px;
-	color: black;
+	color: white;
 	transition: all 0.3s ease;
 }
 
 .navbar-academics-selected {
+	z-index: 10;
 	position: fixed;
 	top: 1.3rem;
 	left: 17rem;
@@ -134,42 +152,225 @@
 	background: transparent;
 	cursor: pointer;
 	font-size:20px;
-	color: midnightblue;
+	color: rgb(59, 62, 231);
 }
 
 .overline-academics {
+	z-index: 10;
 	position: fixed;
 	top: 1rem;
 	left: 17rem;
 	height: 0.3rem;
-	width: 7.05rem;
+	width: 13.55rem;
 	background-color: transparent;
 	cursor: pointer;
 	transition: all 0.3s ease;
 }
 
 .overline-academics-selected {
+	z-index: 10;
 	position: fixed;
 	top: 1rem;
 	left: 17rem;
 	height: 0.3rem;
-	width: 7.05rem;
-	background-color: midnightblue;
+	width: 13.55rem;
+	background-color: rgb(59, 62, 231);
 	cursor: pointer;
 }
 
 .navbar-academics:hover .overline-academics {
-	background-color: midnightblue;
+	background-color: rgb(59, 62, 231);
 }
 
 .navbar-academics:hover {
-	color: midnightblue;
+	color: rgb(59, 62, 231);
 }
 
 .logo-github {
+	z-index: 10;
 	position: fixed;
 	top: 1rem;
 	right: 3rem;
 	height: 2.5rem;
 	width: 2.5rem;
+}
+
+.main-photo {
+	background-image: url("/uni/photos/ISS006-E-36913_lrg.jpg");
+	min-height: 80vh;
+	min-width: 953px;
+	background-attachment: fixed;
+	background-position: top;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.title {
+	padding-top: 16rem;
+	text-align: center;
+	color: white;
+	font-size: 90px;
+	font-family: 'HypeRegular', sans-serif;
+}
+
+.subtitle {
+	padding-top: 1rem;
+	text-align: center;
+	color: white;
+	font-size: 24px;
+}
+
+.divider {
+	height: 3vh;
+	min-width: 953px;
+	background-color: rgb(29, 29, 59);
+}
+
+.component {
+	height: 65vh;
+	min-width: 953px;
+	background-color: #0f0f1a;
+}
+
+.component img {
+	z-index: 0;
+	position: absolute;
+	display: block;
+	right: 50%;
+	left: auto;
+	height: inherit;
+}
+
+.component b {
+	position: relative;
+	display: block;
+	top: 25%;
+	left: 52%;
+	font-size: 40px;
+	color: white;
+	width: 30rem;
+}
+
+.component p {
+	position: relative;
+	display: block;
+	top: 27%;
+	left: 52%;
+	font-size: 20px;
+	color: white;
+	width: 30rem;
+}
+
+.component2 {
+	height: 65vh;
+	min-width: 953px;
+	background-color: #0f0f1a;
+}
+
+.component2 img {
+	z-index: 0;
+	position: absolute;
+	display: block;
+	left: 50%;
+	right: auto;
+	height: inherit;
+}
+
+.component2 b {
+	position: relative;
+	display: block;
+	top: 25%;
+	left: 28.5%;
+	font-size: 40px;
+	color: white;
+	width: 30rem;
+}
+
+.component2 p {
+	position: relative;
+	display: block;
+	top: 27%;
+	left: 28.5%;
+	font-size: 20px;
+	color: white;
+	width: 25rem;
+}
+
+.component3 {
+	height: 65vh;
+	min-width: 953px;
+	background-color: #0f0f1a;
+}
+
+.component3 img {
+	z-index: 0;
+	position: absolute;
+	display: block;
+	left: 50%;
+	right: auto;
+	height: inherit;
+}
+
+.component3 b {
+	position: relative;
+	display: block;
+	top: 25%;
+	left: 10%;
+	font-size: 60px;
+	color: white;
+	width: 30rem;
+}
+
+.component3 p {
+	position: relative;
+	display: block;
+	top: 27%;
+	left: 10%;
+	font-size: 30px;
+	color: white;
+	width: 100rem;
+}
+
+.component4 {
+	height: 65vh;
+	min-width: 953px;
+	background-color: #0f0f1a;
+}
+
+.component4 img {
+	z-index: 0;
+	position: absolute;
+	display: block;
+	right: 50%;
+	left: auto;
+	height: 60%;
+}
+
+.component4 b {
+	position: relative;
+	display: block;
+	top: 20%;
+	left: 52%;
+	font-size: 40px;
+	color: white;
+	width: 30rem;
+}
+
+.component4 p {
+	position: relative;
+	display: block;
+	top: 22%;
+	left: 52%;
+	font-size: 20px;
+	color: white;
+	width: 30rem;
+}
+
+.link-color {
+	color: rgb(59, 62, 231);
+}
+
+.login {
+	width: 100vw;
+	height: 100vh;
 }

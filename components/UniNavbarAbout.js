@@ -18,7 +18,7 @@ function UniNavbarAbout () {
 		<a href="/uni/academics">
 			<div className={uniStyles['navbar-academics']}>
 				<div className={uniStyles['overline-academics']}/>
-				<b>Academics</b>
+				<b>Academics - Projects</b>
 			</div>
 		</a>
 		<a href="https://github.com/Sheer-Curiosity" target="_blank">
