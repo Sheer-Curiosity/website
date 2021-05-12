@@ -15,7 +15,7 @@ export default function Page() {
     return (
       <div>
         Not signed in <br/>
-        <button onClick={() => signIn(null, {callbackUrl: 'https://absoluteinquisition.xyz/uni' })}>Sign in</button>
+        <button onClick={() => signIn(null, {callbackUrl: `${process.env.REDIRECT_URL}/uni` })}>Sign in</button>
       </div>
     )
   }

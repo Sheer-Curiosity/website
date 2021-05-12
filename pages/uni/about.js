@@ -18,7 +18,7 @@ export default function Home() {
 					<title>Login</title>
 				</Head>
         Not signed in <br/>
-        <button onClick={() => signIn(null, { callbackUrl: 'https://absoluteinquisition.xyz/uni/about' })}>Sign in</button>
+        <button onClick={() => signIn(null, { callbackUrl: `${process.env.REDIRECT_URL}/uni/about` })}>Sign in</button>
       </div>
     )
   }
