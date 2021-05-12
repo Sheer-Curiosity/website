@@ -13,7 +13,7 @@ export default function Home() {
 					<title>Login</title>
 				</Head>
         Not signed in <br/>
-        <button onClick={() => signIn(null, { callbackUrl: 'http://localhost:3000/uni' })}>Sign in</button>
+        <button onClick={() => signIn(null, { callbackUrl: 'https://absoluteinquisition.xyz/uni' })}>Sign in</button>
       </div>
     )
   }
