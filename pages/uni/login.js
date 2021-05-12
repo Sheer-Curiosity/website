@@ -6,7 +6,11 @@ import { signIn, signOut, useSession } from 'next-auth/client'
 export default function Page() {
   const [ session, loading ] = useSession()
 
-  
+  if (loading) {
+		return (
+			<div>Loading...</div>
+		)
+	}
   if (!session) {
     return (
       <div>
@@ -19,7 +23,7 @@ export default function Page() {
     return (
       <div>
         Signed in as {session.user.name} <br/>
-        <button onClick={() => signOut()}>Sign out</button>
+        <button onClick={() => signOut(null, {callbackUrl: 'https://absoluteinquisition.xyz/uni' })}>Sign out</button>
       </div>
     )
   }
